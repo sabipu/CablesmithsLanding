@@ -1,0 +1,61 @@
+@use "sass:math";
+
+@import 'vendors/mixins/grid-mixins';
+@import 'vendors/mixins/visibility-mixins';
+@import 'vendors/variables/grid-variables';
+@import 'vendors/grid';
+@import 'vendors/visibility';
+
+@font-face {
+  font-family: 'GTWalsheim Pro';
+  src: url('../fonts/GTWalsheimProRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GTWalsheim Pro';
+  src: url('../fonts/GTWalsheimProBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@function pxToRem($pxValue) {
+  @return math.div($pxValue, 16) + rem;
+}
+
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font: pxToRem(18)/1.6 'GTWalsheim Pro', Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  @media #{$breakpoint-md-up} {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
