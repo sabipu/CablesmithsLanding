@@ -1,5 +1,6 @@
 const { task, src, dest, watch, series } = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
+const mmq = require('gulp-merge-media-queries');
 const del = require('del');
 var browserSync = require('browser-sync').create();
 
@@ -43,6 +44,12 @@ task('styles', () => {
         .pipe(dest('./css/'));
 });
 
+task('mmq', () => {
+    return src('./css/*.css')
+        .pipe(mmq({ log: true }))
+        .pipe(dest('./css/'));
+});
+
 task('clean', () => {
     return del([
         'css/main.css',
@@ -50,7 +57,7 @@ task('clean', () => {
 });
 
 task('watch', () => {
-    watch(['./sass/**/*.scss'], series('styles'))
+    watch(['./sass/**/*.scss'], series('styles', 'mmq'))
 });
 
-task('default', series(['clean', 'styles', 'watch', 'browser-sync']));
+task('default', series(['clean', 'styles', 'watch', 'mmq', 'browser-sync']));
