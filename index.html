@@ -10,33 +10,510 @@
 </head>
 <body>
   <div id="wrapper">
-    <header></header>
-    <section class="banner">
-      <div class="bg__image">
-        <img src="./images/image.jpg" alt="Image">
+    <header class="header">
+      <div class="headertop">
+        <div class="container">
+          <div class="header__left">
+            <ul class="top__features">
+              <li><a href="">Free shipping for orders over $100*</a></li>
+            </ul>
+          </div>
+          <div class="header__right">
+            <ul class="headertop__nav">
+              <li>
+                <div class="search__holder">
+                  <form class="header__search" action="/search" style="position: relative;">
+                    <input type="text" placeholder="Search" name="q" value="" autocomplete="off">
+                    <button type="submit"><svg class="icon" width="100pt" height="100pt" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="m85.207 79.375l-21.664-21.668c3.332-4.375 5.207-10 5.207-16.043 0-15-12.082-27.082-27.082-27.082s-27.086 12.086-27.086 27.086 12.082 27.082 27.082 27.082c6.043 0 11.457-1.875 16.043-5.207l21.668 21.668c0.83203 0.83203 1.875 1.25 2.918 1.25s2.082-0.41797 2.918-1.25c1.6641-1.668 1.6641-4.168-0.003907-5.8359zm-43.539-18.957c-10.418 0-18.75-8.332-18.75-18.75s8.332-18.75 18.75-18.75 18.75 8.332 18.75 18.75c0 10.414-8.3359 18.75-18.75 18.75z"></path></svg></button>
+                  </form>
+                </div>
+              </li>
+              <li>
+                <a href="/cart">
+                  <span class="cart__text">Cart</span>
+                  <span id="the_cart_count"><span class="count" id="the_cart_count_text">0</span></span>
+                  <span class="ico-wrap"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 20 20"><path fill="#444" d="M18.936 5.564c-.144-.175-.35-.207-.55-.207h-.003L6.774 4.286c-.272 0-.417.089-.491.18-.079.096-.16.263-.094.585l2.016 5.705c.163.407.642.673 1.068.673h8.401c.433 0 .854-.285.941-.725l.484-4.571c.045-.221-.015-.388-.163-.567z"></path><path fill="#444" d="M17.107 12.5H7.659L4.98 4.117l-.362-1.059c-.138-.401-.292-.559-.695-.559H.924c-.411 0-.748.303-.748.714s.337.714.748.714h2.413l3.002 9.48c.126.38.295.52.942.52h9.825c.411 0 .748-.303.748-.714s-.336-.714-.748-.714zm-6.683 3.73a1.498 1.498 0 1 1-2.997 0 1.498 1.498 0 0 1 2.997 0zm6.429 0a1.498 1.498 0 1 1-2.997 0 1.498 1.498 0 0 1 2.997 0z"></path></svg></span>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
       </div>
+      <div class="mainheader">
+        <div class="container">
+            <div class="logo">
+              <div class="h1" itemscope="" itemtype="http://schema.org/Organization">
+                  <a href="/" itemprop="url" class="site-logo">
+                      <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo_153x.png?v=8579362558548144777" alt="Cablesmiths" itemprop="logo">
+                  </a>
+                </div>
+          </div>
+          <div class="header__navhold">
+            <a href="#" class="nav__opener"><span></span></a>
+            <div class="nav__wrapper">
+              <div class="nav__closeholder">
+                <a href="#" class="nav__opener nav__closer"><span class="close"></span></a>
+              </div>
+              <nav class="main__nav" role="navigation">
+                <ul class="main__navigation">
+                  
+                    
+                      <li>
+                        <a class="main__navigation-link" href="/pages/custom-configurator"><span class="main__nav-center">Custom Cable Builder</span></a>
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        <a class="main__navigation-link" href="/collections/microphone"><span class="main__nav-center">Microphone Cables <span class="ico-wrap"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-angle-down" viewBox="0 0 306 306"><path d="M270.3 58.65L153 175.95 35.7 58.65 0 94.35l153 153 153-153z"></path></svg></span></span></a>
+                        <div class="menu__dropdown"><div class="page-width"><ul>
+                          
+                            
+                              <li>
+                                <a href="/collections/microphone/belden">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-belden_144x.png?v=12474365724729257693" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Belden</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/microphone/canare">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-canare_144x.png?v=7582353122981918586" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Canare</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/microphone/gotham">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-gotham_144x.png?v=1772187867645242960" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Gotham</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/microphone/mogami">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-mogami_144x.png?v=9539719381335597260" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Mogami</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/microphone/sommer">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-sommer_144x.png?v=6322064119632512996" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Sommer</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/microphone/van-damme">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-vandamme_144x.png?v=18397674839191489221" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Van Damme</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/microphone/klotz">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-klotz_144x.png?v=7506920685657597626" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Klotz</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li class="browse--all">
+                                <a href="/collections/microphone">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-black_144x.png?v=3997806627742812649" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Browse All</span>
+                                </a>
+                              </li>
+                            
+                          
+                        </ul></div></div>
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        <a class="main__navigation-link" href="/collections/guitars-and-keyboards"><span class="main__nav-center">Guitar Cables <span class="ico-wrap"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-angle-down" viewBox="0 0 306 306"><path d="M270.3 58.65L153 175.95 35.7 58.65 0 94.35l153 153 153-153z"></path></svg></span></span></a>
+                        <div class="menu__dropdown"><div class="page-width"><ul>
+                          
+                            
+                              <li>
+                                <a href="/collections/guitars-and-keyboards/belden">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-belden_144x.png?v=12474365724729257693" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Belden</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/guitars-and-keyboards/canare">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-canare_144x.png?v=7582353122981918586" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Canare</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/guitars-and-keyboards/gotham">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-gotham_144x.png?v=1772187867645242960" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Gotham</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/guitars-and-keyboards/sommer">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-sommer_144x.png?v=6322064119632512996" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Sommer</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/guitars-and-keyboards/mogami">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-mogami_144x.png?v=9539719381335597260" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Mogami</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/guitars-and-keyboards/klotz">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-klotz_144x.png?v=7506920685657597626" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Klotz</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/guitars-and-keyboards/van-damme">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-vandamme_144x.png?v=18397674839191489221" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Van Damme</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li class="images--all">
+                                <a href="/collections/braided-instrument-cables">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-braided-instrument-cables_144x.jpg?v=3330834644231265234" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Braided Instrument Cables</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li class="browse--all">
+                                <a href="/collections/guitars-and-keyboards">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-black_144x.png?v=3997806627742812649" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Browse All</span>
+                                </a>
+                              </li>
+                            
+                          
+                        </ul></div></div>
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        <a class="main__navigation-link" href="/collections/speakers"><span class="main__nav-center">Speaker Cables <span class="ico-wrap"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-angle-down" viewBox="0 0 306 306"><path d="M270.3 58.65L153 175.95 35.7 58.65 0 94.35l153 153 153-153z"></path></svg></span></span></a>
+                        <div class="menu__dropdown"><div class="page-width"><ul>
+                          
+                            
+                              <li>
+                                <a href="/collections/speakers/klotz">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-klotz_144x.png?v=7506920685657597626" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Klotz</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/speakers/syntax">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-syntax_144x.jpg?v=13524596982053498651" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Syntax</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li class="browse--all">
+                                <a href="/collections/speakers">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-black_144x.png?v=3997806627742812649" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Browse All</span>
+                                </a>
+                              </li>
+                            
+                          
+                        </ul></div></div>
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        <a class="main__navigation-link" href="/collections/stageboxes-multicore-cables"><span class="main__nav-center">Stageboxes <br> &amp; Multicores <span class="ico-wrap"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-angle-down" viewBox="0 0 306 306"><path d="M270.3 58.65L153 175.95 35.7 58.65 0 94.35l153 153 153-153z"></path></svg></span></span></a>
+                        <div class="menu__dropdown"><div class="page-width"><ul>
+                          
+                            
+                              <li>
+                                <a href="/collections/stageboxes-multicore-cables">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-black_144x.png?v=3997806627742812649" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Cablesmiths</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li class="browse--all">
+                                <a href="/collections/stageboxes-multicore-cables">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-black_144x.png?v=3997806627742812649" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Browse All</span>
+                                </a>
+                              </li>
+                            
+                          
+                        </ul></div></div>
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        <a class="main__navigation-link" href="/collections/sdi-video-and-antenna-cables"><span class="main__nav-center">Video <br> &amp; Antenna Cables <span class="ico-wrap"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-angle-down" viewBox="0 0 306 306"><path d="M270.3 58.65L153 175.95 35.7 58.65 0 94.35l153 153 153-153z"></path></svg></span></span></a>
+                        <div class="menu__dropdown"><div class="page-width"><ul>
+                          
+                            
+                              <li>
+                                <a href="/collections/sdi-video-and-antenna-cables/sommer">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-sommer_144x.png?v=6322064119632512996" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Sommer</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li>
+                                <a href="/collections/sdi-video-and-antenna-cables/belden">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-belden_144x.png?v=12474365724729257693" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Belden</span>
+                                </a>
+                              </li>
+                            
+                          
+                            
+                              <li class="browse--all">
+                                <a href="/collections/sdi-video-and-antenna-cables">
+                                  <div class="menu__logowrap">
+                                    
+                                    
+                                    <img src="//cdn.shopify.com/s/files/1/1962/5973/t/9/assets/logo-black_144x.png?v=3997806627742812649" alt="Cablesmiths">
+                                  </div>
+                                  <span class="menu__subtext">Browse All</span>
+                                </a>
+                              </li>
+                            
+                          
+                        </ul></div></div>
+                      </li>
+                    
+                  
+                    
+                      <li>
+                        <a class="main__navigation-link" href="/collections/ethernet-cables"><span class="main__nav-center">Ethernet Cables</span></a>
+                      </li>
+                    
+                  
+                      
+                </ul>
+                
+              </nav>
+              <nav role="navigation" class="popup__nav">
+                <ul class="aside__navigation">
+                  
+                    <li>
+                      <a href="/blogs/news">Blog</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/pages/about">About</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/pages/subscribe">Subscribe</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/pages/equipment-hire">Equipment Hire</a>
+                    </li>
+                  
+                    <li>
+                      <a href="/pages/contact">Contact</a>
+                    </li>
+                  
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h1></h1>
-            <p></p>
-            <a href="#" class="button">Button</a>
+            <h1>Build cables to your specifications and design.</h1>
+            <p>Custom built microphone cables for all stage, studio and install applications. Design your perfect custom cable for all microphones, instruments, studio gear and powered speakers here.</p>
+            <a href="#" class="button">Build my cable</a>
           </div>
         </div>
+      </div>
+      <div class="bg__image">
+        <img src="./images/banner-image.jpg" alt="Image">
       </div>
     </section>
     <div class="productsblock">
       <div class="container">
-        <div class="general__heading">
-          <h2></h2>
-          <p></p>
+        <div class="general__heading text-center">
+          <h2>Choose your cable type to start building.</h2>
+          <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments. </p>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="product__box">
-              <h3></h3>
-              <p></p>
-              <a href="#" class="link">Link</a>
+              <h3>Custom Microphone Cables</h3>
+              <p>Custom built microphone cables for all stage, studio and install applications.</p>
+              <a href="#" class="link">BUILD NOW</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="product__box">
+              <h3>Custom Microphone Cables</h3>
+              <p>Custom built microphone cables for all stage, studio and install applications.</p>
+              <a href="#" class="link">BUILD NOW</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="product__box">
+              <h3>Custom Microphone Cables</h3>
+              <p>Custom built microphone cables for all stage, studio and install applications.</p>
+              <a href="#" class="link">BUILD NOW</a>
             </div>
           </div>
         </div>
@@ -45,27 +522,34 @@
     <div class="descriptionblock">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            image
+          <div class="col-sm-7">
+            <img src="./images/content-image.jpg" alt="Cablesmiths" />
           </div>
-          <div class="col-sm-6">
-            <h2></h2>
-            <p></p>
-            <ul></ul>
-            <a href="#" class="button">Button</a>
+          <div class="col-sm-5">
+            <div class="text__wrapper">
+              <h2>Built with the right tools you need.</h2>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+              <ul class="list">
+                <li>Custom Cable brand</li>
+                <li>Custom Connectors</li>
+                <li>Custom Sleeves and braids</li>
+                <li>Custom brand logo</li>
+              </ul>
+              <a href="#" class="button">Try building now</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <div class="infoblock">
       <div class="container">
-        <div class="general__heading text--left">
+        <div class="general__heading">
           <div class="row">
             <div class="col-sm-6">
-              <h2></h2>
+              <h2>Customise cable with ease. The way you want it.</h2>
             </div>
-            <div class="col-sm-6">
-              <p></p>
+            <div class="col-sm-offset-1 col-sm-5">
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments. </p>
             </div>
           </div>
         </div>
@@ -73,31 +557,84 @@
           <div class="col-sm-3">
             <div class="info__box">
               <div class="info__icon">
-                <svg class="icon"></svg>
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                </svg>
               </div>
-              <h3></h3>
-              <p></p>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info__box">
+              <div class="info__icon">
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                  </svg>
+              </div>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info__box">
+              <div class="info__icon">
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                  </svg>
+              </div>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="info__box">
+              <div class="info__icon">
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                  </svg>
+              </div>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
             </div>
           </div>
         </div>
         <div class="button__holder">
-          <a href="#" class="button">Button</a>
+          <a href="#" class="button">Build my cable</a>
         </div>
       </div>
     </div>
     <div class="generaltext">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
+        <div class="row reverse">
+          <div class="col-sm-7">
             <div class="image__wrapper">
-              image
+              <img src="./images/aside-image.jpg" alt="Cablesmiths" />
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <div class="text__wrapper">
-              <h2></h2>
-              <p></p>
-              <a href="#" class="button">Button</a>
+              <h2>Looking for cable with your brand name?</h2>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+              <a href="#" class="button">Try building now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="generaltext">
+      <div class="container">
+        <div class="row row--reverse">
+          <div class="col-sm-7">
+            <div class="image__wrapper">
+              <img src="./images/aside-image.jpg" alt="Cablesmiths" />
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="text__wrapper">
+              <h2>Looking for cable with your brand name?</h2>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+              <a href="#" class="button">Try building now</a>
             </div>
           </div>
         </div>
@@ -105,8 +642,8 @@
     </div>
     <div class="brandwrapper">
       <div class="container">
-        <div class="general__heading">
-          <h2></h2>
+        <div class="general__heading text-center">
+          <h2>Pick your cable from these leading cable brands.</h2>
         </div>
         <div class="brand__slider">
           <div class="slide">
@@ -121,48 +658,111 @@
     <div class="configtext">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <h2></h2>
-            <p></p>
-            <a href="#" class="link">Button</a>
+          <div class="col-sm-5">
+            <h2>Customise cable with ease. The way you want it.</h2>
+            <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments. Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            <a href="#" class="link">Read more</a>
+          </div>
+          <div class="col-sm-7">
+            <img src="./images/content-image.jpg" alt="Cablesmiths" />
           </div>
         </div>
       </div>
     </div>
     <div class="featureblock">
       <div class="container">
-        <div class="general__heading">
-          <h2></h2>
-          <p></p>
+        <div class="general__heading text-center">
+          <h2>Simply your custom cables with Cablesmiths</h2>
+          <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments. </p>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="feature__text">
               <div class="feature__icon">
-                <svg class="icon"></svg>
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                </svg>
               </div>
-              <h3></h3>
-              <p></p>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
             </div>
           </div>
+          <div class="col-sm-4">
+            <div class="feature__text">
+              <div class="feature__icon">
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                </svg>
+              </div>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature__text">
+              <div class="feature__icon">
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                </svg>
+              </div>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature__text">
+              <div class="feature__icon">
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                </svg>
+              </div>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature__text">
+              <div class="feature__icon">
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                </svg>
+              </div>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature__text">
+              <div class="feature__icon">
+                <svg class="icon" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M31.5431 1.069C31.3154 1.15225 30.9526 1.51013 30.8014 1.80088C30.5676 2.25 30.6035 8.553 30.8423 9.00938C31.4091 10.0921 33.096 9.953 33.5415 8.78675C33.7888 8.13925 33.7261 2.17813 33.4671 1.70375C33.1499 1.12275 32.228 0.818628 31.5431 1.069ZM42.9689 5.79538C42.666 5.91388 38.3238 10.2218 38.1203 10.6056C37.503 11.7701 38.6481 13.1203 39.9108 12.7166C40.3109 12.5888 44.6016 8.44225 44.8805 7.914C45.5215 6.6995 44.2528 5.29325 42.9689 5.79538ZM19.2571 6.17813C18.6716 6.53513 18.4285 7.34138 18.7049 8.01C18.8719 8.414 22.9979 12.6281 23.4729 12.8799C24.6054 13.4801 25.8771 12.4821 25.6383 11.1806C25.5674 10.7948 21.3884 6.44013 20.7814 6.11963C20.3936 5.915 19.6415 5.94388 19.2571 6.17813ZM42.1291 17.4921C41.0254 18.0005 40.9419 19.6088 41.9908 20.1579C42.4471 20.3966 48.7501 20.4325 49.1993 20.1988C50.243 19.6558 50.2923 18.0784 49.2828 17.526C48.7873 17.2548 42.7068 17.226 42.1291 17.4921ZM17.312 23.1638C1.99576 28.536 3.20026 28.0174 3.20026 29.2395C3.20026 30.1074 3.16988 30.0809 6.20126 31.8725C7.49038 32.6344 8.56514 33.2744 8.58963 33.2948C8.61413 33.3153 6.74001 35.2309 4.42501 37.5518C-0.0903659 42.0784 0.000134427 41.9743 0.000134427 42.6489C0.000134427 43.3403 0.0435095 43.3911 3.87563 47.2056C7.74676 51.0589 7.67738 51 8.34976 51C9.02613 51 8.92038 51.0919 13.4484 46.5751C15.7693 44.2601 17.6848 42.386 17.7049 42.4105C17.7251 42.435 18.397 43.5679 19.198 44.9279C20.8161 47.6754 20.9278 47.7989 21.7856 47.7923C22.3653 47.7878 22.822 47.5536 23.0596 47.1391C23.3268 46.6731 32.4458 20.523 32.4966 20.077C32.5888 19.2699 31.8313 18.4701 30.9928 18.489C30.7633 18.4941 25.4009 20.3265 17.312 23.1638ZM28.469 22.6553C28.4318 22.7493 26.8704 27.1988 24.9991 32.543C23.128 37.8873 21.5598 42.3589 21.5141 42.4799C21.4419 42.6713 21.2793 42.4449 20.269 40.7466C19.0498 38.6971 18.8751 38.5011 18.2009 38.4251C17.4069 38.3356 17.4465 38.3024 12.792 42.9491L8.34763 47.386L5.98063 45.0176L3.61376 42.6493L7.96563 38.3041C12.6611 33.6159 12.6401 33.6405 12.578 32.8933C12.5143 32.1249 12.3578 31.9793 10.2499 30.7265C9.17563 30.0881 8.33063 29.5531 8.37201 29.5376C8.92113 29.3319 28.3925 22.5034 28.453 22.4954C28.499 22.4894 28.5063 22.5613 28.469 22.6553ZM38.8136 25.4538C38.1299 25.7516 37.7871 26.5205 37.9941 27.2925C38.1233 27.7741 42.1228 31.9118 42.7941 32.2583C44.1328 32.9493 45.5329 31.57 44.8419 30.2409C44.559 29.6969 40.4761 25.6559 40.0179 25.4665C39.5783 25.2848 39.2106 25.2809 38.8136 25.4538Z"/>
+                </svg>
+              </div>
+              <h3>Select the cable type you want configured</h3>
+              <p>Explore our extensive range of cut, abrasion and tangle resistant braided instrument cables for harsh and demanding environments.</p>
+            </div>
+          </div>
+        </div>
+        <div class="button__holder">
+          <a href="#" class="button">Try building now</a>
         </div>
       </div>
     </div>
     <div class="reviewblock">
-      <div class="container container--full">
+      <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <h3></h3>
+            <h3>Trusted by professionals woldwide</h3>
           </div>
           <div class="col-sm-8">
             <div class="review__slider">
               <div class="slide">
                 <div class="review__content">
                   <blockquote>
-                    <q></q>
+                    <q>Explore our extensive range of cut, abrasion and tangle resistant braided instvrument cables for harsh and demanding environments.</q>
                     <cite>
-                      <span class="name">name</span>
-                      <span class="company">company</span>
+                      <span class="name">Hannah Staples</span>
+                      <span class="company">New Company Name</span>
                     </cite>
                   </blockquote>
                 </div>
@@ -173,16 +773,63 @@
       </div>
     </div>
     <div class="quickblock">
-      <div class="container container--full">
+      <div class="container">
         <div class="row">
           <div class="col-sm-4">
             <div class="quick__box">
               <div class="quick__icon">
-                <svg class="icon"></svg>
+                <svg class="icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_33:752)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2613 0.0434161C8.77904 0.592041 5.0357 2.68609 2.55464 6.03262C-0.721452 10.4515 -0.883239 16.4869 2.15266 21.0275C2.40107 21.3991 2.59147 21.7494 2.57581 21.8059C2.56006 21.8625 1.98422 23.293 1.29612 24.9849C-0.271001 28.8383 -0.317726 29.1592 0.603824 29.7436C1.26384 30.1622 1.2452 30.1677 5.50671 28.2885L9.25399 26.6361L9.66821 26.7817C10.1683 26.9574 11.1732 27.2345 11.689 27.3388C12.0445 27.4108 12.0789 27.4365 12.3224 27.8136C15.2086 32.2824 21.465 34.3063 26.9091 32.5323L27.3295 32.3954L30.286 33.6975C33.664 35.1852 33.7536 35.2092 34.3953 34.8023C35.2845 34.2383 35.2403 33.8224 33.9545 30.6588L32.9543 28.1979L33.2901 27.6851C35.0445 25.0059 35.4898 21.557 34.4801 18.467C33.8243 16.4603 32.3165 14.3844 30.5562 13.0648C29.868 12.549 29.9017 12.5993 29.84 11.9966C29.3234 6.94988 24.9754 2.18008 19.4408 0.588716C17.8025 0.117616 14.8114 -0.146284 13.2613 0.0434161ZM16.0389 2.83047C24.5411 3.24198 29.8525 12.2172 25.6686 19.1029C24.7541 20.6078 25.9409 22.1866 27.3775 21.3763C28.0282 21.0093 29.0839 18.897 29.5632 17.0031L29.7839 16.1307L30.0871 16.4562C32.7904 19.3589 32.9119 23.7735 30.3748 26.9043C29.79 27.6259 29.7994 27.9102 30.4622 29.5476C30.7489 30.2559 30.9694 30.8494 30.9522 30.8666C30.935 30.8838 30.2159 30.5857 29.3543 30.2042C27.4854 29.3767 27.3577 29.352 26.5572 29.6624C23.166 30.9773 19.3894 30.4482 16.5747 28.2639C15.7516 27.6252 15.755 27.6449 16.4571 27.5914C18.3859 27.4445 21.2256 26.6116 22.3624 25.8593C23.3012 25.238 23.0729 23.7394 21.9848 23.3809C21.5924 23.2517 21.17 23.3316 20.439 23.6735C17.2657 25.1577 13.4211 25.2481 10.0637 23.9174C9.20359 23.5765 9.21514 23.5737 6.48059 24.7798C5.15934 25.3626 4.06401 25.8251 4.04651 25.8076C4.02901 25.7901 4.37297 24.8904 4.81091 23.8081C5.87115 21.1881 5.87001 21.2669 4.86586 19.9713C1.20766 15.2513 2.49776 8.47448 7.72414 4.95645C9.79841 3.56022 13.0685 2.60025 15.1412 2.77919C15.2539 2.78899 15.6579 2.812 16.0389 2.83047ZM14.0132 5.58365C11.7212 5.9634 9.8433 8.17348 9.8433 10.4911C9.8433 12.5257 12.4097 12.6538 12.6149 10.6294C12.8326 8.47982 15.14 7.55223 16.6109 9.02302C17.8385 10.2506 17.4545 12.0236 15.7733 12.8897C14.3738 13.6108 13.609 14.814 13.5938 16.3187C13.5737 18.3053 16.1601 18.4502 16.3691 16.4742C16.437 15.8323 16.5704 15.6621 17.3111 15.2714C22.5239 12.5221 19.8337 4.61923 14.0132 5.58365ZM14.168 19.6569C13.3041 20.1746 13.308 21.5356 14.1748 22.0436C15.4162 22.7711 16.8239 21.3635 16.0964 20.1221C15.7274 19.4927 14.8109 19.2715 14.168 19.6569Z" fill="black"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_33:752">
+                  <rect width="35" height="35" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
               </div>
               <h4>FAQ</h4>
-              <p></p>
-              <a href="#" class="link">Link</a>
+              <p>Read our quick questions and answers to learn more about Cablesmiths and custom configurator.</p>
+              <a href="#" class="link">READ MORE</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="quick__box">
+              <div class="quick__icon">
+                <svg class="icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_33:752)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2613 0.0434161C8.77904 0.592041 5.0357 2.68609 2.55464 6.03262C-0.721452 10.4515 -0.883239 16.4869 2.15266 21.0275C2.40107 21.3991 2.59147 21.7494 2.57581 21.8059C2.56006 21.8625 1.98422 23.293 1.29612 24.9849C-0.271001 28.8383 -0.317726 29.1592 0.603824 29.7436C1.26384 30.1622 1.2452 30.1677 5.50671 28.2885L9.25399 26.6361L9.66821 26.7817C10.1683 26.9574 11.1732 27.2345 11.689 27.3388C12.0445 27.4108 12.0789 27.4365 12.3224 27.8136C15.2086 32.2824 21.465 34.3063 26.9091 32.5323L27.3295 32.3954L30.286 33.6975C33.664 35.1852 33.7536 35.2092 34.3953 34.8023C35.2845 34.2383 35.2403 33.8224 33.9545 30.6588L32.9543 28.1979L33.2901 27.6851C35.0445 25.0059 35.4898 21.557 34.4801 18.467C33.8243 16.4603 32.3165 14.3844 30.5562 13.0648C29.868 12.549 29.9017 12.5993 29.84 11.9966C29.3234 6.94988 24.9754 2.18008 19.4408 0.588716C17.8025 0.117616 14.8114 -0.146284 13.2613 0.0434161ZM16.0389 2.83047C24.5411 3.24198 29.8525 12.2172 25.6686 19.1029C24.7541 20.6078 25.9409 22.1866 27.3775 21.3763C28.0282 21.0093 29.0839 18.897 29.5632 17.0031L29.7839 16.1307L30.0871 16.4562C32.7904 19.3589 32.9119 23.7735 30.3748 26.9043C29.79 27.6259 29.7994 27.9102 30.4622 29.5476C30.7489 30.2559 30.9694 30.8494 30.9522 30.8666C30.935 30.8838 30.2159 30.5857 29.3543 30.2042C27.4854 29.3767 27.3577 29.352 26.5572 29.6624C23.166 30.9773 19.3894 30.4482 16.5747 28.2639C15.7516 27.6252 15.755 27.6449 16.4571 27.5914C18.3859 27.4445 21.2256 26.6116 22.3624 25.8593C23.3012 25.238 23.0729 23.7394 21.9848 23.3809C21.5924 23.2517 21.17 23.3316 20.439 23.6735C17.2657 25.1577 13.4211 25.2481 10.0637 23.9174C9.20359 23.5765 9.21514 23.5737 6.48059 24.7798C5.15934 25.3626 4.06401 25.8251 4.04651 25.8076C4.02901 25.7901 4.37297 24.8904 4.81091 23.8081C5.87115 21.1881 5.87001 21.2669 4.86586 19.9713C1.20766 15.2513 2.49776 8.47448 7.72414 4.95645C9.79841 3.56022 13.0685 2.60025 15.1412 2.77919C15.2539 2.78899 15.6579 2.812 16.0389 2.83047ZM14.0132 5.58365C11.7212 5.9634 9.8433 8.17348 9.8433 10.4911C9.8433 12.5257 12.4097 12.6538 12.6149 10.6294C12.8326 8.47982 15.14 7.55223 16.6109 9.02302C17.8385 10.2506 17.4545 12.0236 15.7733 12.8897C14.3738 13.6108 13.609 14.814 13.5938 16.3187C13.5737 18.3053 16.1601 18.4502 16.3691 16.4742C16.437 15.8323 16.5704 15.6621 17.3111 15.2714C22.5239 12.5221 19.8337 4.61923 14.0132 5.58365ZM14.168 19.6569C13.3041 20.1746 13.308 21.5356 14.1748 22.0436C15.4162 22.7711 16.8239 21.3635 16.0964 20.1221C15.7274 19.4927 14.8109 19.2715 14.168 19.6569Z" fill="black"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_33:752">
+                  <rect width="35" height="35" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+              </div>
+              <h4>FAQ</h4>
+              <p>Read our quick questions and answers to learn more about Cablesmiths and custom configurator.</p>
+              <a href="#" class="link">READ MORE</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="quick__box">
+              <div class="quick__icon">
+                <svg class="icon" width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_33:752)">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.2613 0.0434161C8.77904 0.592041 5.0357 2.68609 2.55464 6.03262C-0.721452 10.4515 -0.883239 16.4869 2.15266 21.0275C2.40107 21.3991 2.59147 21.7494 2.57581 21.8059C2.56006 21.8625 1.98422 23.293 1.29612 24.9849C-0.271001 28.8383 -0.317726 29.1592 0.603824 29.7436C1.26384 30.1622 1.2452 30.1677 5.50671 28.2885L9.25399 26.6361L9.66821 26.7817C10.1683 26.9574 11.1732 27.2345 11.689 27.3388C12.0445 27.4108 12.0789 27.4365 12.3224 27.8136C15.2086 32.2824 21.465 34.3063 26.9091 32.5323L27.3295 32.3954L30.286 33.6975C33.664 35.1852 33.7536 35.2092 34.3953 34.8023C35.2845 34.2383 35.2403 33.8224 33.9545 30.6588L32.9543 28.1979L33.2901 27.6851C35.0445 25.0059 35.4898 21.557 34.4801 18.467C33.8243 16.4603 32.3165 14.3844 30.5562 13.0648C29.868 12.549 29.9017 12.5993 29.84 11.9966C29.3234 6.94988 24.9754 2.18008 19.4408 0.588716C17.8025 0.117616 14.8114 -0.146284 13.2613 0.0434161ZM16.0389 2.83047C24.5411 3.24198 29.8525 12.2172 25.6686 19.1029C24.7541 20.6078 25.9409 22.1866 27.3775 21.3763C28.0282 21.0093 29.0839 18.897 29.5632 17.0031L29.7839 16.1307L30.0871 16.4562C32.7904 19.3589 32.9119 23.7735 30.3748 26.9043C29.79 27.6259 29.7994 27.9102 30.4622 29.5476C30.7489 30.2559 30.9694 30.8494 30.9522 30.8666C30.935 30.8838 30.2159 30.5857 29.3543 30.2042C27.4854 29.3767 27.3577 29.352 26.5572 29.6624C23.166 30.9773 19.3894 30.4482 16.5747 28.2639C15.7516 27.6252 15.755 27.6449 16.4571 27.5914C18.3859 27.4445 21.2256 26.6116 22.3624 25.8593C23.3012 25.238 23.0729 23.7394 21.9848 23.3809C21.5924 23.2517 21.17 23.3316 20.439 23.6735C17.2657 25.1577 13.4211 25.2481 10.0637 23.9174C9.20359 23.5765 9.21514 23.5737 6.48059 24.7798C5.15934 25.3626 4.06401 25.8251 4.04651 25.8076C4.02901 25.7901 4.37297 24.8904 4.81091 23.8081C5.87115 21.1881 5.87001 21.2669 4.86586 19.9713C1.20766 15.2513 2.49776 8.47448 7.72414 4.95645C9.79841 3.56022 13.0685 2.60025 15.1412 2.77919C15.2539 2.78899 15.6579 2.812 16.0389 2.83047ZM14.0132 5.58365C11.7212 5.9634 9.8433 8.17348 9.8433 10.4911C9.8433 12.5257 12.4097 12.6538 12.6149 10.6294C12.8326 8.47982 15.14 7.55223 16.6109 9.02302C17.8385 10.2506 17.4545 12.0236 15.7733 12.8897C14.3738 13.6108 13.609 14.814 13.5938 16.3187C13.5737 18.3053 16.1601 18.4502 16.3691 16.4742C16.437 15.8323 16.5704 15.6621 17.3111 15.2714C22.5239 12.5221 19.8337 4.61923 14.0132 5.58365ZM14.168 19.6569C13.3041 20.1746 13.308 21.5356 14.1748 22.0436C15.4162 22.7711 16.8239 21.3635 16.0964 20.1221C15.7274 19.4927 14.8109 19.2715 14.168 19.6569Z" fill="black"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_33:752">
+                  <rect width="35" height="35" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+              </div>
+              <h4>FAQ</h4>
+              <p>Read our quick questions and answers to learn more about Cablesmiths and custom configurator.</p>
+              <a href="#" class="link">READ MORE</a>
             </div>
           </div>
         </div>
