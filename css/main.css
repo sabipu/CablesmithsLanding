@@ -553,7 +553,12 @@ img {
 	background-color: #F4F2F7;
 	position: relative;
 	overflow: hidden;
-	padding: 220px 0 120px;
+}
+
+.banner .container {
+	position: relative;
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 .bg__image {
@@ -746,6 +751,66 @@ img {
 	padding: 40px 0;
 }
 
+.reviewblock h3 {
+	font-size: 40px;
+}
+
+.review__slider {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.review__slider .slide {
+	width: 50%;
+}
+
+.review__content {
+	background: #F4F5F9;
+	box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.05);
+	padding: 35px 20px 20px;
+}
+
+.review__content blockquote {
+	position: relative;
+	display: block;
+	quotes: none;
+	color: #647183;
+}
+
+.review__content blockquote:before {
+	content: "“";
+	position: absolute;
+	left: -25px;
+	top: -34px;
+	color: #E8CD30;
+	font-size: 120px;
+	line-height: 1;
+	font-weight: 700;
+}
+
+.review__content blockquote q {
+	display: block;
+	margin-bottom: 30px;
+	text-indent: 56px;
+}
+
+.review__content blockquote cite {
+	display: block;
+	font-style: normal;
+}
+
+.review__content blockquote .name,
+.review__content blockquote .company {
+	display: block;
+}
+
+.review__content blockquote .name {
+	display: block;
+	color: #1B283D;
+	font-size: 24px;
+	font-weight: 700;
+}
+
 .quickblock {
 	padding: 50px 0;
 }
@@ -753,7 +818,7 @@ img {
 .quick__box {
 	background: #E8CD30;
 	box-shadow: 0px 0px 12px rgba(165, 165, 165, 0.17);
-	padding: 25px 13px 5px;
+	padding: 35px;
 	font-size: 16px;
 	border-radius: 13px;
 	height: 100%;

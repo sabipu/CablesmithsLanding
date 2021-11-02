@@ -87,7 +87,12 @@ img {
   background-color: #F4F2F7;
   position: relative;
   overflow: hidden;
-  padding: 220px 0 120px;
+
+  .container {
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 .bg__image {
@@ -278,6 +283,66 @@ img {
 
 .reviewblock {
   padding: 40px 0;
+
+  h3 {
+    font-size: 40px;
+  }
+}
+
+.review__slider {
+  display: flex;
+  flex-wrap: wrap;
+  
+  .slide {
+    width: 50%;
+  }
+}
+
+.review__content {
+  background: #F4F5F9;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.05);
+  padding: 35px 20px 20px;
+
+  blockquote {
+    position: relative;
+    display: block;
+    quotes: none;
+    color: #647183;
+
+    &:before {
+      content: '“';
+      position: absolute;
+      left: -25px;
+      top: -34px;
+      color: #E8CD30;
+      font-size: 120px;
+      line-height: 1;
+      font-weight: 700;
+    }
+
+    q {
+      display: block;
+      margin-bottom: 30px;
+      text-indent: 56px;
+    }
+
+    cite {
+      display: block;
+      font-style: normal;
+    }
+
+    .name,
+    .company {
+      display: block;
+    }
+
+    .name {
+      display: block;
+      color: #1B283D;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
 }
 
 .quickblock {
@@ -287,7 +352,7 @@ img {
 .quick__box {
   background: #E8CD30;
   box-shadow: 0px 0px 12px rgba(165, 165, 165, 0.17);
-  padding: 25px 13px 5px;
+  padding: 35px;
   font-size: 16px;
   border-radius: 13px;
   height: 100%;
